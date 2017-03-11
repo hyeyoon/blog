@@ -1,0 +1,23 @@
+<div   id="_backdrop" class="backdrop"></div>
+<header id="_sidebar" class="sidebar" role="banner">
+  <div id="_asidebar" class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1 class="font-accent"><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+      {{ site.description | markdownify }}
+    </div>
+
+    <nav class="sidebar-nav font-accent" role="navigation">
+      {% include nav.html %}
+    </nav>
+
+    {% if site.author.social %}
+    <div class="sidebar-social">
+      {% include social.html social=site.author.social %}
+    </div>
+    <div class="footer">
+      <p class="copyright">&copy All rights reserved</p>
+      <p class ="powered">Powered by <a href="http://jekyllrb.com/">Jekyll</a>. Inspired by <a href="https://qwtel.com/hydejack/">HydeJack</a> and <a href="http://hyde.getpoole.com/">Hyde</a></p>
+    </div>
+    {% endif %}
+  </div>
+</header>
