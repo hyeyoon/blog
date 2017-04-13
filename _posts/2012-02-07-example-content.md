@@ -79,6 +79,9 @@ Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliqua
 ![800x400](http://placehold.it/800x400 "Large example image"){:.lead}
 ![400x200](http://placehold.it/400x200 "Medium example image")
 ![200x200](http://placehold.it/200x200 "Small example image")
+![test1](../public/img/hyde.jpg)
+![test2](./public/img/hyde.jpg)
+![test3](./img/hyde.jpg)
 
 ## Tables
 

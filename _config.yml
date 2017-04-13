@@ -47,9 +47,8 @@ author:
 
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Hi, I'm Florian or [`@qwtel`](https://www.twitter.com/qwtel), which isn't an acronym,
+    Hi, I'm Hyeyoon.
     I just [wanted a short username](http://qwtel.com/how-to-find-a-short-username) and that one happened to be available.
-
     Read my thoughts on [#software](http://qwtel.com/tag/software) and [#cryptoeconomics](http://qwtel.com/tag/cryptoeconomics).
 
   # Social media icons in sidebar
@@ -96,7 +95,7 @@ author:
 google_analytics_id: 'UA-93511049-1'
 
 # Setting a disqus subdomain will enable the comment section
-# disqus:            <username>
+disqus:            hyeyoon
 
 markdown: kramdown
 kramdown:
