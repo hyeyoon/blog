@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 'Jekyll과 Github으로 시작하는 블로그'
+title: 'Jekyll로 시작하는 블로그'
 tags: [programming]
 description: >
-  Jekyll(지킬)과 Github을 활용해서 블로그를 설치하고 시작하는 방법
+  Jekyll(지킬)을 활용해서 블로그를 설치하고 시작하는 방법
 ---
 Jekyll(지킬)은 Markdown(마크다운) 등으로 작성된 파일을 변환시켜서 실제 웹 상에서 읽을 수 있게 해주는 정적 사이트 생성기입니다. Github의 정적인 페이지를 호스팅할 수 있는 기능인 git pages를 통해 jekyll을 통해서 만든 블로그를 퍼블리싱할 수 있습니다.
 - [Jekyll 공식 사이트](https://jekyllrb.com/)
@@ -93,6 +93,6 @@ cd blog 	// blog 폴더로 이동
 jekyll serve --watch	// 로컬 서버로 블로그 실행
 ```
 
-![블로그](../public/img/jekyll-blog.png)
+![블로그](./public/img/jekyll-blog.png)
 
-위와 같은 Jekyll 기본 테마를 갖춘 블로그를 확인할 수 있습니다.
+위와 같은 Jekyll 기본 테마를 갖춘 블로그를 확인할 수 있습니다. 다음 포스팅을 통해 Jekyll로 만든 블로그를 Github를 통해 퍼블리싱하는 방법을 소개해드릴게요.
