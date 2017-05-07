@@ -7,11 +7,11 @@ gems:
 permalink:           pretty
 
 # Setup
-url:                 'http://hyeyoon.github.io'
+url:                 'http://hyeyoon.github.io/blog'
 
 # Set to '' in case of hosting on GitHub pages,
 # i.e. `http://<username>.github.io`
-baseurl:             /blog
+baseurl:
 
 title:               Yoon's devlog
 
