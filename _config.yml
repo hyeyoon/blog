@@ -40,12 +40,12 @@ author:
   name:              'Hyeyoon'
 
   # This photo will be used in the about section
-  photo:             http://qwtel.com/public/img/flo.jpg
-  photo2x:           http://qwtel.com/public/img/flo@2x.jpg
+  photo:             https://avatars1.githubusercontent.com/u/13035393?v=3&s=460
+  photo2x:           https://avatars1.githubusercontent.com/u/13035393?v=3&s=460
 
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Hi, I'm Hyeyoon.
+    안녕하세요. 주니어 프론트엔드 개발자 혜윤입니다. 개발을 공부하며 배운점, 느낀점 등을 기록하는 블로그입니다.
 
   # Social media icons in sidebar
   # Comment/uncommet to show/hide
