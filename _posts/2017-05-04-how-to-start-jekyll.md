@@ -93,6 +93,8 @@ cd blog 	// blog 폴더로 이동
 jekyll serve --watch	// 로컬 서버로 블로그 실행
 ```
 
-![블로그](./public/img/jekyll-blog.png)
+![블로그](./public/img/1/jekyll-blog.png)
 
 위와 같은 Jekyll 기본 테마를 갖춘 블로그를 확인할 수 있습니다. 다음 포스팅을 통해 Jekyll로 만든 블로그를 Github를 통해 퍼블리싱하는 방법을 소개해드릴게요.
+
+[Jekyll 블로그 github를 통해 퍼블리싱하는 방법](http://blog.hyeyoonjung.com/2017-05-22-how-to-write-posts/)
