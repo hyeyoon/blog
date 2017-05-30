@@ -199,7 +199,7 @@ __강조__한 텍스트
 ```markdown
 ![Github](./public/img/3/github.png)
 ```
-![Github](./public/img/3/github.png)
+![Github](http://blog.hyeyoonjung.com/public/img/3/github.png)
 
 ```markdown
 ![Github](https://assets-cdn.github.com/images/modules/open_graph/github-octocat.png)

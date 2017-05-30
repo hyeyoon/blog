@@ -81,7 +81,7 @@ categories: jekyll update
 
 글을 작성하기 전 상단에 위와 같은 형식으로 제목, 날짜, 카테고리 등을 설정해주면 퍼블리싱을 했을 때 글의 제목과 작성된 날짜 등이 포스트에 나타납니다.
 
-![블로그 설정](./public/img/2/jekyll_post.png)
+![블로그 설정](http://blog.hyeyoonjung.com/public/img/2/jekyll_post.png)
 
 ### Github에 배포하기
 이제 블로그를 온라인에 배포해야하는 단계가 남았는데요. Github을 통해 퍼블리싱을 할 경우 무료로 블로그를 배포할 수 있다는 장점이 있습니다. Github에 퍼블리싱을 하기 위해서는 일단 Github 계정이 있어야 합니다. 계정이 없을 경우 Github에서 계정을 만들어주세요.
@@ -90,7 +90,7 @@ categories: jekyll update
 #### Github 레포지토리 만들기
 회원가입 혹은 로그인을 완료했다면, 우측 상단의 +아이콘을 누르고 New Repository를 클릭하거나, 우측 하단의 New repository라는 버튼을 클릭해서 레포지토리를 생성할 수 있습니다.
 
-![Github repository](./public/img/2/git_repository2.png)
+![Github repository](http://blog.hyeyoonjung.com/public/img/2/git_repository2.png)
 
 #### Github에 블로그 폴더 업로드
 레포지토리를 만드는 것까지 완료했다면, 이제 터미널 혹은 터미널이 익숙하지 않은 경우 소스트리(source tree)와 같은 프로그램을 이용해서 블로그 폴더를 Github 사이트에 업로드하면 됩니다.
@@ -114,13 +114,13 @@ git push -u origin master
 
 위의 명령어가 제대로 동작했다면 아래와 같이 파일들이 올라간 것을 확인할 수 있습니다.
 
-![Github](./public/img/2/github.png)
+![Github](http://blog.hyeyoonjung.com/public/img/2/github.png)
 
 #### Github의 git pages 기능으로 블로그 배포하기
 블로그 배포를 위해서는 git pages 기능을 활용해야하는데요. 정적인 웹사이트를 Github을 통해 무료로 퍼블리싱할 수 있는 기능입니다. github 레포지토리 페이지에서 상단에 Settings를 클릭합니다. 이 곳에서 레포지토리의 이름를 바꾸고 콜라보레이터를 등록하는 등의 작업을 할 수 있는데요. 아래로 내려서 Github pages라는 부분을 찾습니다.
 
-![Github pages](./public/img/2/github_pages.png)
+![Github pages](http://blog.hyeyoonjung.com/public/img/2/github_pages.png)
 
 그리고 source를 클릭해서 배포를 원하는 브랜치를 선택하는데요. 저는 일단 master 브랜치를 배포 대상으로 선택했습니다. 그리고 save를 클릭하면 퍼블리싱되고 있는 주소가 상단의 이미지처럼 나타납니다. 약 5~10분 정도 후에 주소를 들어가면 본인의 블로그가 퍼블리싱 된 것을 확인할 수 있습니다.
 
-![Github pages](./public/img/2/github_pages2.png)
+![Github pages](http://blog.hyeyoonjung.com/public/img/2/github_pages2.png)
