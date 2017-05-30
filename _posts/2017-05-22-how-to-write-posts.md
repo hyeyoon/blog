@@ -123,4 +123,4 @@ git push -u origin master
 
 그리고 source를 클릭해서 배포를 원하는 브랜치를 선택하는데요. 저는 일단 master 브랜치를 배포 대상으로 선택했습니다. 그리고 save를 클릭하면 퍼블리싱되고 있는 주소가 상단의 이미지처럼 나타납니다. 약 5~10분 정도 후에 주소를 들어가면 본인의 블로그가 퍼블리싱 된 것을 확인할 수 있습니다.
 
-![Gitpub pages](./public/img/2/github_pages2.png)
+![Github pages](./public/img/2/github_pages2.png)
