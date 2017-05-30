@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '마크다운 사용법'
+title: '마크다운(Markdown) 사용법'
 tags: [programming]
 description: >
   마크다운(Markdown)의 문법에 대해 정리한 포스트입니다.
