@@ -16,33 +16,32 @@ html_css:
   # image: /hydejack/public/img/hyde.jpg
   color: '#147ba7'
   description: >
-    Hyde is a brazen two-column Jekyll theme that pairs a prominent sidebar with uncomplicated content.
-    It’s based on Poole, the Jekyll butler.
+    HTML과 CSS에 관련된 주제를 다룬 포스트입니다. 
 
 sass:
   name: Sass
   # image: /hydejack/public/img/jekyll.jpg
   color: '#147ba7'
   description: >
-    Jekyll is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes.
+    CSS 전처리기인 Sass와 관련된 주제를 다룬 포스트입니다.
 
 javascript:
   name: JavaScript
   # image: /hydejack/public/img/jekyll.jpg
   color: '#147ba7'
   description: >
-    Jekyll is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes.
+    JavaScript와 관련된 주제를 다룬 포스트입니다.
 
 vue:
   name: Vue.js
   # image: /hydejack/public/img/jekyll.jpg
   color: '#147ba7'
   description: >
-    Jekyll is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes.
+    JavaScript의 프레임워크인 Vue.js과 관련된 주제를 다루고 있습니다.
 
 programming:
   name: Programming
   # image: /hydejack/public/img/jekyll.jpg
   color: '#147ba7'
   description: >
-    Jekyll is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes.
+    프로그래밍에 관련된 주제들을 다루고 있습니다.

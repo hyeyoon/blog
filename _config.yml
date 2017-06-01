@@ -11,7 +11,7 @@ url:                 'http://blog.hyeyoonjung.com'
 
 # Set to '' in case of hosting on GitHub pages,
 # i.e. `http://<username>.github.io`
-baseurl: 
+baseurl:
 
 title:               Yoon's devlog
 
@@ -21,10 +21,12 @@ paginate_path:       '/page-:num/'
 
 # Markdown enabled, however don't use more than one paragraph (enforced by `>`)
 description:         >
-  주니어 프론트엔드 개발자의 `개발일지`{:style="background: rgba(255, 255, 255, 0.15)"}
+  주니어 프론트엔드 개발자의 `개발일지`{:style="background: rgba(255, 255, 255, 0.15); color: #fff"}
 
 # The tags listed as entries in the sidebar
-sidebar_tags:        [html_css, sass, javascript, vue, programming]
+# sidebar_tags:        [html_css, sass, javascript, vue, programming]
+
+sidebar_tags:        [programming]
 
 # Fallback image and color if not overwritten for tag or post
 image:

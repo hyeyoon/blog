@@ -7,7 +7,7 @@ description: >
 ---
 지난 포스트를 통해 Jekyll을 설치하고 시작하는 방법에 대해 알아봤는데요.
 
-[Jekyll로 시작하는 블로그](http://blog.hyeyoonjung.com/2017/05/04/how-to-start-jekyll/)
+> [Jekyll로 시작하는 블로그](http://blog.hyeyoonjung.com/2017/05/04/how-to-start-jekyll/)
 
 지난번에 만든 파일을 활용해서 Github에 연결하고 배포하는 방법을 소개해드릴게요.
 

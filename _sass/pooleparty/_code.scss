@@ -14,6 +14,7 @@ code {
   // Could be mistaken for a link if the user choses a similar link-color, so better no colored inline code.
   // color: $code-color;
   background-color: #f9f9f9;
+  color: #147ba7;
   // No border radius to prevent repaint on code scroll
   // border-radius: 3px;
 }

@@ -9,22 +9,16 @@ description: >
 
 
 ## 제목(Heading)
-문서를 작성할 때 가장 기본이 되는 제목은 HTML의 `<h1>`~`<h6>` 태그와 유사합니다.
+문서를 작성할 때 가장 기본이 되는 제목은 HTML의 `<h1>`~`<h6>` 태그와 유사합니다. #의 개수에 따라 글자의 크기가 달라집니다. `#`은 `<h1>`, `###`은 `<h3>` `######`은 `<h6>`
 
 ```
 # Heading
-## Heading
 ### Heading
-#### Heading
-##### Heading
 ###### Heading
 ```
 
 # Heading
-## Heading
 ### Heading
-#### Heading
-##### Heading
 ###### Heading
 
 
