@@ -12,7 +12,7 @@
     };
 
     var loaded = false;
-    var disqus_thread_offsetTop = document.getElementById('disqus_thread').offsetTop;
+    var disqus_thread_offsetTop = document.querySelector('.post').offsetTop;
 
     window.addEventListener('scroll', function (e) {
       if (!loaded && document.body.scrollTop + window.innerHeight >= disqus_thread_offsetTop) {
