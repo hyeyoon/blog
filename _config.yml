@@ -1,5 +1,5 @@
 # Dependencies
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-paginate
 
@@ -42,8 +42,8 @@ author:
   name:              'Hyeyoon'
 
   # This photo will be used in the about section
-  photo:             https://avatars1.githubusercontent.com/u/13035393?v=3&s=460
-  photo2x:           https://avatars1.githubusercontent.com/u/13035393?v=3&s=460
+  photo:             http://blog.hyeyoonjung.com/public/img/logo.png
+  photo2x:           http://blog.hyeyoonjung.com/public/img/logo.png
 
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
