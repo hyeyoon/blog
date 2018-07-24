@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '깃(Git) 사용법'
+title: '초보자를 위한 깃(Git) 사용법'
 tags: [programming]
 description: >
   버전 관리 시스템인 깃(Git)의 사용법에 대해 정리한 글입니다.

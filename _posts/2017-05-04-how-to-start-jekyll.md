@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Jekyll로 시작하는 블로그'
+title: 'Jekyll로 github 블로그 만드는 방법'
 tags: [programming]
 description: >
   Jekyll(지킬)을 활용해서 블로그를 설치하고 시작하는 방법
