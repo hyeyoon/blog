@@ -21,7 +21,7 @@
   {% endif %}
 
   <div class="post-date">
-    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%m/%d/%y" }}</time>
+    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y/%m/%d" }}</time>
     <span>{{ tags_content }}</span>
   </div>
 
