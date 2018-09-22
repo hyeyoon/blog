@@ -42,8 +42,8 @@ author:
   name:              'Hyeyoon'
 
   # This photo will be used in the about section
-  photo:             http://blog.hyeyoonjung.com/public/img/logo.png
-  photo2x:           http://blog.hyeyoonjung.com/public/img/logo.png
+  photo:             https://raw.githubusercontent.com/hyeyoon/blog/master/public/img/logo.png
+  photo2x:           https://raw.githubusercontent.com/hyeyoon/blog/master/public/img/logo.png
 
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
