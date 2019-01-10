@@ -192,7 +192,6 @@ const io = new IntersectionObserver((entries, observer) => {
 
 ```html
 <div class="example">
-  <h1 class="title">Scroll Down <span class="arrow">👇</span></h1>
   <img src="https://picsum.photos/600/400/?random?0" alt="random image" class="image-default">
   <img data-src="https://picsum.photos/600/400/?random?1" alt="random image" class="image">
   <img data-src="https://picsum.photos/600/400/?random?2" alt="random image" class="image">
