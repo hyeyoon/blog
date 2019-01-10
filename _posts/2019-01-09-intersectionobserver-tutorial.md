@@ -63,7 +63,7 @@ addEventToEl(boxElList);
 
 ## Intersection Observer API의 등장
 
-[Intersection Observer API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API)(교차 관찰자 API)를 사용하면 위와 같은 문제를 해결할 수 있습니다. 비동기적으로 실행되기 때문에 메인 스레드에 영향을 주지 않으면서 변경 사항을 관찰할 수 있습니다. 또한 `IntersectionObserverEntry` 내부의 `rootBounds`를 통해 `getBoundingClientRect()`를 호출한 것과 같은 결과를 알 수 있기 때문에 따로 `getBoundingClientRect()` 함수를 호출할 필요가 없어 리플로우 현상을 방지할 수 있습니다.
+[Intersection Observer API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API)(교차 관찰자 API)를 사용하면 위와 같은 문제를 해결할 수 있습니다. 비동기적으로 실행되기 때문에 메인 스레드에 영향을 주지 않으면서 변경 사항을 관찰할 수 있습니다. 또한 `IntersectionObserverEntry`의 속성을 활용하면 `getBoundingClientRect()`를 호출한 것과 같은 결과를 알 수 있기 때문에 따로 `getBoundingClientRect()` 함수를 호출할 필요가 없어 리플로우 현상을 방지할 수 있습니다.
 
 아래는 위에 예시와 같은 동작을 하지만 `Intersection Observer API`를 사용해서 구현한 예제입니다.
 
