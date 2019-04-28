@@ -13,7 +13,9 @@ description: >
 - 광고의 수익을 계산하기 위해 광고의 가시성을 참고할 때
 - 사용자가 결과를 볼 것인지에 따라 애니메이션 동작 여부를 결정할 때
 
-> 현재(2019년 1월 기준)는 웹, 모바일 크롬, 안드로이드, 파이어폭스 등에서 지원하고 있으며 아직 사파리, 모바일 사파리에서는 지원하지 않고 있습니다. 따라서 사파리, 아이폰의 경우 예시가 제대로 동작하지 않을 수 있습니다.
+> 현재(2019년 1월 기준)는 웹, 모바일 크롬, 안드로이드, 파이어폭스 등에서 지원하고 있으며 ~~아직 사파리, 모바일 사파리에서는 지원하지 않고 있습니다. 따라서 사파리, 아이폰의 경우 예시가 제대로 동작하지 않을 수 있습니다.~~
+
+> [WebKit](https://webkit.org/blog/8582/intersectionobserver-in-webkit/)(2019년 2월 기준)에 따르면 Safari Technology Preview, macOS 10.14.4 beta, iOS 12.2 beta 버전에서 Intersection Observer를 사용할 수 있습니다.
 
 ## 기존 scroll 이벤트의 문제
 
@@ -99,7 +101,7 @@ boxElList.forEach((el) => {
 Intersection Observer의 사용법에 대해 알아보겠습니다. [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API#)에서는 IntersectionObserver를 아래와 같이 정의하고 있습니다.
 > The Intersection Observer API provides a way to asynchronously observe changes in the intersection of a target element with an ancestor element or with a top-level document's viewport.
 
-> Intersection Observer API는 타겟 엘리먼트가 조상 엘리먼트, 또는 최상위 문서의 뷰포트(브라우저에서는 보통 브라우저의 viewport)의 교차영역에서 발생하는 변화를 비동기로 관찰하는 빙법을 제공합니다.
+> Intersection Observer API는 타겟 엘리먼트가 조상 엘리먼트, 또는 최상위 문서의 뷰포트(브라우저에서는 보통 브라우저의 viewport)의 교차영역에서 발생하는 변화를 비동기로 관찰하는 방법을 제공합니다.
 
 기본 사용 방법은 아래와 같습니다. 여러 엘리먼트에 이벤트를 한 번에 등록하고 싶다면 콜백함수에 forEach를 사용해서 선언할 수 있습니다. [IntersectionObserver](https://developer.mozilla.org/en-US/docs/Web/API/IntersectionObserver/IntersectionObserver)를 생성하기 위해서는 교차되었을 때 실행할 callback함수를 등록해야 하고, 선택적으로 options 값을 넘겨줄 수 있습니다.
 ```javascript
@@ -117,7 +119,7 @@ const io = new IntersectionObserver(callback[, options])
   - default: `null`, 브라우저의 viewport
   - 교차 영역의 기준이 될 root 엘리먼트. observe의 대상으로 등록할 엘리먼트는 반드시 root의 하위 엘리먼트여야 합니다.
 
-  ![root 예시](https://raw.githubusercontent.com/hyeyoon/blog/master/public/img/4/root.png)
+  ![root 예시](https://raw.githubusercontent.com/hyeyoon/blog/master/public/img/4/root_img.png)
 
 - `rootMargin`
   - default: `'0px 0px 0px 0px'`
