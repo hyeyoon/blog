@@ -119,7 +119,7 @@ const io = new IntersectionObserver(callback[, options])
   - default: `null`, 브라우저의 viewport
   - 교차 영역의 기준이 될 root 엘리먼트. observe의 대상으로 등록할 엘리먼트는 반드시 root의 하위 엘리먼트여야 합니다.
 
-  ![root 예시](https://raw.githubusercontent.com/hyeyoon/blog/master/public/img/4/root_img.png)
+  ![root 예시](https://raw.githubusercontent.com/hyeyoon/blog/master/public/img/4/root.png)
 
 - `rootMargin`
   - default: `'0px 0px 0px 0px'`
