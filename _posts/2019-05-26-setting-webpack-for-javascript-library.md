@@ -72,7 +72,7 @@ npm install --save-dev webpack webpack-cli
 ```
 
 ### 웹팩 설정에 필요한 패키지 설치
-
+아래 명령어를 터미널에 입력해서 패키지들을 설치합니다.
 ```
 npm install --save-dev mini-css-extract-plugin webpack-merge clean-webpack-plugin terser-webpack-plugin optimize-css-assets-webpack-plugin
 ```
@@ -323,7 +323,7 @@ module.exports = {
 ```
 
 ### 웹팩으로 css파일 압축 파일 생성하기
-css 파일의 경우 어떻게 압축한 버전과 압축하지 않은 버전이 있는지 찾아봤습니다. 하지만 웹팩 css 압축 플러그인인 ```optimize-css-assets-webpack-plugin```에서는 ```terser-webpack-plugin```와 같이 특정 파일만 압축을 진행할 수가 없었습니다. [css 파일을 multiple하게 ouput을 생성하고 싶다면 웹팩 설정 추가해서 진행할 것](https://github.com/NMFR/optimize-css-assets-webpack-plugin/issues/29#issuecomment-350505133)을 이야기했습니다. 그래서 일반 버전과 압축 버전 설정을 따로 추가했습니다.
+css 파일의 경우 어떻게 압축한 버전과 압축하지 않은 버전이 있는지 찾아봤습니다. 하지만 웹팩 css 압축 플러그인인 ```optimize-css-assets-webpack-plugin```에서는 ```terser-webpack-plugin```와 같이 특정 파일만 압축을 진행할 수가 없었습니다. [css 파일을 multiple하게 ouput을 생성하고 싶다면 웹팩 설정을 각각 추가해서 진행할 것](https://github.com/NMFR/optimize-css-assets-webpack-plugin/issues/29#issuecomment-350505133)을 이야기했습니다. 그래서 일반 버전과 압축 버전 설정을 따로 추가했습니다.
 
 css 압축을 위한 플러그인을 설치합니다.
 ```
