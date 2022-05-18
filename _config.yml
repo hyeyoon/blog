@@ -21,7 +21,7 @@ paginate_path:       '/page-:num/'
 
 # Markdown enabled, however don't use more than one paragraph (enforced by `>`)
 description:         >
-  주니어 프론트엔드 개발자의 `개발일지`{:style="background: rgba(255, 255, 255, 0.15); color: #fff"}
+  프론트엔드 개발자의 `개발일지`{:style="background: rgba(255, 255, 255, 0.15); color: #fff"}
 
 # The tags listed as entries in the sidebar
 # sidebar_tags:        [html_css, sass, javascript, vue, programming]
@@ -47,7 +47,7 @@ author:
 
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    안녕하세요. 주니어 프론트엔드 개발자 윤입니다. 개발을 공부하며 배운점, 느낀점 등을 기록하는 블로그입니다. 피드백, 오타, 잘못된 정보 제보는 언제나 환영입니다. 
+    안녕하세요. 프론트엔드 개발자 윤입니다. 개발을 공부하며 배운점, 느낀점 등을 기록하는 블로그입니다. 피드백, 오타, 잘못된 정보 제보는 언제나 환영입니다. 
 
   # Social media icons in sidebar
   # Comment/uncommet to show/hide
